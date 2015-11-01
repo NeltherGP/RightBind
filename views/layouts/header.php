@@ -1,8 +1,10 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/pruebas/gltest22/config.ini.php'; ?>
+<?php
+// include $_SERVER['DOCUMENT_ROOT'] . '/pruebas/gltest22/config.ini.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Ecommerce Test Gameloft</title>
+        <title>RightBind</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
@@ -23,13 +25,14 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <img src="../img/gameloftico.png">
+            <img src="../img/rightbind.png">
           </a>
         </div>
         <div class="collapse navbar-collapse" id="targ">
           <ul class="nav navbar-nav">
             <li><a href="<?php echo BASEURL; ?>views/site/inicio.php">Inicio</a></li>
-            <li><a href="<?php echo BASEURL; ?>views/site/contacto.php">Contacto</a></li>
+            <li><a href="<?php echo BASEURL; ?>views/site/contacto.php">Empresa</a></li>
+            <li><a href="<?php echo BASEURL; ?>views/empresas/empresas.php">Alumno</a></li>
           </ul>
           <?php
           if(!isset($_SESSION['nombre'])){
