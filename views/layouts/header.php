@@ -1,5 +1,5 @@
 <?php
-// include $_SERVER['DOCUMENT_ROOT'] . '/pruebas/gltest22/config.ini.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/rightContact/config.ini.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -24,15 +24,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img src="../img/rightbind.png">
-          </a>
+
         </div>
         <div class="collapse navbar-collapse" id="targ">
           <ul class="nav navbar-nav">
-            <li><a href="<?php echo BASEURL; ?>views/site/inicio.php">Inicio</a></li>
-            <li><a href="<?php echo BASEURL; ?>views/site/contacto.php">Empresa</a></li>
-            <li><a href="<?php echo BASEURL; ?>views/empresas/empresas.php">Alumno</a></li>
+            <li><a href="<?php echo BASEURL;?>views/site/inicio.php">Inicio</a></li>
+            <li><a href="<?php echo BASEURL;?>views/empresa/empresas.php">Empresa</a></li>
+            <li><a href="<?php echo BASEURL;?>views/alumno/alumnos.php">Alumno</a></li>
           </ul>
           <?php
           if(!isset($_SESSION['nombre'])){
