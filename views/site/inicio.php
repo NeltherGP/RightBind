@@ -31,7 +31,8 @@ include ('../layouts/header.php');
 
   </div>
   <div class="col-md-6">
-    <h1>¿Quienes somos?</h1>
-    <h4>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h4>
+    <h1>¿Qué es Right Bind?</h1>
+    <h4><p align="left">Es una plataforma que tiene como finalidad vincular a las empresas con diversas universidades,promoviendo la gestión y desarrollo de proyectos.</p></h4>
+    <h1></h1>
   </div>
 </div>

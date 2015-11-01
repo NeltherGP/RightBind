@@ -28,9 +28,18 @@
         </div>
         <div class="collapse navbar-collapse" id="targ">
           <ul class="nav navbar-nav">
+<<<<<<< Updated upstream
             <li><a href="views/site/inicio.php">Inicio</a></li>
             <li><a href="views/site/contacto.php">Empresa</a></li>
             <li><a href="views/empresas/empresas.php">Alumno</a></li>
+=======
+            <li><a href="<?php echo BASEURL;?>views/site/inicio.php">Inicio</a></li>
+            <li><a href="<?php echo BASEURL;?>views/empresa/empresas.php">Empresa</a></li>
+            <li><a href="<?php echo BASEURL;?>views/alumno/Alumnos.php">Estudiante</a></li>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
           </ul>
           <?php
           if(!isset($_SESSION['nombre'])){
