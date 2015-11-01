@@ -1,9 +1,9 @@
 <?php
 include ('../layouts/header.php');
 ?>
-<div class="row">
+<div class="row ">
   <div class="col-md-offset-1 col-md-2">
-    
+    <br><br><br>
     <form method="post">
       <div class="form-group">
         <label for="">Usuario</label>
@@ -17,6 +17,17 @@ include ('../layouts/header.php');
 
       <button type="" class=" btn btn-default">Iniciar</button>
     </form>
+
+  </div>
+  <div class="col-md-9">
+    <img src="<?php echo BASEURL; ?>views/img/logoRB.png" alt="" />
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-md-offset-1 col-md-2">
+
+
 
   </div>
   <div class="col-md-6">
