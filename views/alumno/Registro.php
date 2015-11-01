@@ -25,10 +25,10 @@
 	  			<div class="col-sm-9">
 		  			<select name="carrera" id="carrera" class="form-control">
 		  				<option value="Opcion" selected>Elije una carrera</option>
-		  				<option value="Opcion"></option>
-		  				<option value="Opcion"></option>
-		  				<option value="Opcion"></option>
-		  				<option value="Opcion"></option>
+		  				<option value="Opcion">Sistemas computacionales/informática</option>
+		  				<option value="Opcion">Gestión de empresas</option>
+		  				<option value="Opcion">Industrial</option>
+		  				<option value="Opcion">Química</option>
 		  			</select>
 	  			</div>
 	  		</div>
